@@ -213,3 +213,11 @@ print(addMe2Me([-1, 'abc']))
 def foo(debug=True):
 	if(debug):
 		print('is debug')
+	else:
+		print('is not debug')
+
+foo()
+foo(False)
+
+#--------------CLASS--------------------
+
