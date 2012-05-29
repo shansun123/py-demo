@@ -11,6 +11,12 @@ print(type(simple_module.Person))
 p = simple_module.Person
 print(type(p))
 
+# 数字和字符串类型值不可以变
+x = 'Hello World'
+print(id(x))
+x = 'Hello Lanbo'
+print(id(x))
+
 #-------------------IS--IS NOT-----------------------
 
 a = 4.3
