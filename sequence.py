@@ -23,7 +23,7 @@ print("MAX:", max(aStr))
 
 print("SUM:", sum([1, 2, 3, 4, 5]))
 
-print("ZIP:", zip([1, 2, 3, 4, 5]))
+print("ZIP:", dict(zip(('x', 'y'), (1, 2))))
 
 #----------------STRINGS--------------------
 
